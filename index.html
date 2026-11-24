@@ -1,0 +1,421 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vedhavathi Kirana | Wholesale & Retail</title>
+
+    <meta name="description" content="Vedhavathi Kirana Wholesale and Retail. Explore groceries, rice, dals, oils, spices and everyday essentials.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container nav-container">
+
+            <a href="#" class="logo">
+                <span class="logo-icon">V</span>
+                <span>
+                    <strong>VEDHAVATHI</strong>
+                    <small>KIRANA WHOLESALE & RETAIL</small>
+                </span>
+            </a>
+
+            <div class="header-right">
+                <!-- EDIT: Replace with actual business phone -->
+                <a href="tel:+919951057247" class="header-phone">
+                    ☎ <span>+91 9951057247</span>
+                </a>
+
+                <a href="#" class="btn btn-green whatsapp-link">
+                    Order on WhatsApp
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container hero-content">
+
+            <div class="hero-text">
+                <span class="eyebrow">YOUR EVERYDAY GROCERY PARTNER</span>
+
+                <h1>
+                    Wholesale and Retail
+                    <span>Groceries</span>
+                </h1>
+
+                <p>
+                    Rice, dals, oils, spices and more at the best rates.
+                    Everything you need, all in one place.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#catalogue" class="btn btn-green">
+                        Browse Catalogue →
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        Bulk Enquiry
+                    </a>
+                </div>
+
+                <div class="hero-trust">
+                    <span>✓ Wholesale Supply</span>
+                    <span>✓ Retail Shopping</span>
+                    <span>✓ Wide Product Range</span>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-circle"></div>
+
+                <div class="hero-card">
+                    <div class="hero-emoji">🛒</div>
+                    <h3>Everything for your store</h3>
+                    <p>Groceries and daily essentials</p>
+
+                    <div class="hero-tags">
+                        <span>Rice</span>
+                        <span>Dals</span>
+                        <span>Oils</span>
+                        <span>Spices</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="section categories-section" id="categories">
+        <div class="container">
+
+            <div class="section-heading">
+                <span class="eyebrow">EXPLORE OUR RANGE</span>
+                <h2>Shop by Category</h2>
+                <p>Find all your grocery essentials in one place.</p>
+            </div>
+
+            <div class="category-grid">
+
+                <button class="category-card" data-category="Rice and Flour">
+                    <span class="category-icon">🌾</span>
+                    <strong>Rice and Flour</strong>
+                    <small>Grains & Atta</small>
+                </button>
+
+                <button class="category-card" data-category="Dals and Pulses">
+                    <span class="category-icon">🫘</span>
+                    <strong>Dals and Pulses</strong>
+                    <small>Everyday essentials</small>
+                </button>
+
+                <button class="category-card" data-category="Oils">
+                    <span class="category-icon">🫒</span>
+                    <strong>Oils</strong>
+                    <small>Cooking oils</small>
+                </button>
+
+                <button class="category-card" data-category="Spices">
+                    <span class="category-icon">🌶️</span>
+                    <strong>Spices</strong>
+                    <small>Masalas & spices</small>
+                </button>
+
+                <button class="category-card" data-category="Sugar and Salt">
+                    <span class="category-icon">🧂</span>
+                    <strong>Sugar and Salt</strong>
+                    <small>Daily essentials</small>
+                </button>
+
+                <button class="category-card" data-category="Snacks and Biscuits">
+                    <span class="category-icon">🍪</span>
+                    <strong>Snacks and Biscuits</strong>
+                    <small>Snacks & treats</small>
+                </button>
+
+                <button class="category-card" data-category="Beverages">
+                    <span class="category-icon">☕</span>
+                    <strong>Beverages</strong>
+                    <small>Drinks & refreshments</small>
+                </button>
+
+                <button class="category-card" data-category="Household and Cleaning">
+                    <span class="category-icon">🧹</span>
+                    <strong>Household</strong>
+                    <small>Cleaning essentials</small>
+                </button>
+
+                <button class="category-card" data-category="Personal Care">
+                    <span class="category-icon">🧴</span>
+                    <strong>Personal Care</strong>
+                    <small>Everyday care</small>
+                </button>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CATALOGUE -->
+    <section class="section catalogue-section" id="catalogue">
+        <div class="container">
+
+            <div class="section-heading">
+                <span class="eyebrow">OUR PRODUCT RANGE</span>
+                <h2>Explore Our Catalogue</h2>
+                <p>Search products and add your requirements to the enquiry list.</p>
+            </div>
+
+            <div class="catalogue-toolbar">
+
+                <input
+                    type="search"
+                    id="searchInput"
+                    placeholder="Search products, brands..."
+                    aria-label="Search products"
+                >
+
+                <select id="categoryFilter" aria-label="Filter by category">
+                    <option value="">All Categories</option>
+                </select>
+
+                <select id="brandFilter" aria-label="Filter by brand">
+                    <option value="">All Brands</option>
+                </select>
+
+            </div>
+
+            <div class="catalogue-info">
+                <p id="productCount">Loading products...</p>
+
+                <button id="clearFilters" class="text-button">
+                    Clear filters
+                </button>
+            </div>
+
+            <div id="productGrid" class="product-grid">
+                <div class="loading">Loading catalogue...</div>
+            </div>
+
+            <div class="load-more-container">
+                <button id="loadMore" class="btn btn-outline" hidden>
+                    Load More Products
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="section why-section">
+        <div class="container">
+
+            <div class="section-heading">
+                <span class="eyebrow">WHY VEDHAVATHI</span>
+                <h2>Your Trusted Grocery Partner</h2>
+            </div>
+
+            <div class="why-grid">
+
+                <div class="why-card">
+                    <span>💰</span>
+                    <h3>Wholesale & Retail Rates</h3>
+                    <p>Grocery supply for businesses and everyday shoppers.</p>
+                </div>
+
+                <div class="why-card">
+                    <span>🛍️</span>
+                    <h3>Wide Product Range</h3>
+                    <p>A variety of grocery products and everyday essentials.</p>
+                </div>
+
+                <div class="why-card">
+                    <span>🚚</span>
+                    <h3>Delivery Enquiries</h3>
+                    <p>Contact us to confirm available delivery options.</p>
+                </div>
+
+                <div class="why-card">
+                    <span>🤝</span>
+                    <h3>Trusted Local Store</h3>
+                    <p>A convenient grocery partner for your daily needs.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+
+            <div class="section-heading">
+                <span class="eyebrow">GET IN TOUCH</span>
+                <h2>Let's Talk Business</h2>
+                <p>For bulk orders, retail enquiries and product availability.</p>
+            </div>
+
+            <div class="contact-grid">
+
+                <div class="contact-details">
+
+                    <div class="contact-item">
+                        <span>📍</span>
+                        <div>
+                            <h3>Our Location</h3>
+                            <!-- EDIT: Replace with actual store address -->
+                            <p>YOUR SHOP ADDRESS, HYDERABAD, TELANGANA</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>📞</span>
+                        <div>
+                            <h3>Phone Number</h3>
+                            <!-- EDIT: Replace with actual business phone -->
+                            <p>+91 9951057247</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>📦</span>
+                        <div>
+                            <h3>Minimum Order</h3>
+                            <!-- EDIT: Confirm minimum order requirement -->
+                            <p>Contact us for order requirements.</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>🕒</span>
+                        <div>
+                            <h3>Business Timings</h3>
+                            <!-- EDIT: Replace with actual timings -->
+                            <p>UPDATE STORE OPENING AND CLOSING TIMES</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>🚚</span>
+                        <div>
+                            <h3>Delivery Areas</h3>
+                            <!-- EDIT: Replace with actual delivery coverage -->
+                            <p>CONFIRM DELIVERY AREAS</p>
+                        </div>
+                    </div>
+
+                    <a href="#" class="btn btn-green whatsapp-link">
+                        Chat with Us on WhatsApp →
+                    </a>
+
+                </div>
+
+                <div class="map-container">
+                    <!-- EDIT: Replace this placeholder with the actual Google Maps embed -->
+                    <div class="map-placeholder">
+                        <span>📍</span>
+                        <h3>Find Our Store</h3>
+                        <p>Google Maps location will appear here.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <div>
+                <h3>VEDHAVATHI</h3>
+                <p>Wholesale and Retail Groceries</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#categories">Categories</a>
+                <a href="#catalogue">Catalogue</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <p class="copyright">
+                © <span id="currentYear"></span> Vedhavathi Kirana.
+                All rights reserved.
+            </p>
+
+        </div>
+    </footer>
+
+    <!-- FLOATING ENQUIRY BUTTON -->
+    <button id="cartButton" class="cart-button" aria-label="Open enquiry list">
+        <span>🛒</span>
+        <span>My List</span>
+        <span id="cartCount" class="cart-count">0</span>
+    </button>
+
+    <!-- CART OVERLAY -->
+    <div id="cartOverlay" class="cart-overlay"></div>
+
+    <!-- ENQUIRY PANEL -->
+    <aside id="cartPanel" class="cart-panel" aria-label="Enquiry list">
+
+        <div class="cart-header">
+            <div>
+                <span class="eyebrow">YOUR REQUIREMENTS</span>
+                <h2>Enquiry List</h2>
+            </div>
+
+            <button id="closeCart" class="close-button" aria-label="Close enquiry list">
+                ✕
+            </button>
+        </div>
+
+        <div id="cartItems" class="cart-items">
+            <p class="empty-cart">Your list is empty.</p>
+        </div>
+
+        <div class="cart-form">
+
+            <label for="customerName">Your Name *</label>
+            <input id="customerName" type="text" placeholder="Enter your name">
+
+            <label for="shopName">Shop / Business Name</label>
+            <input id="shopName" type="text" placeholder="Optional">
+
+            <label for="customerType">Customer Type</label>
+            <select id="customerType">
+                <option value="Retail Customer">Retail Customer</option>
+                <option value="Wholesale Buyer">Wholesale Buyer</option>
+                <option value="Shop">Shop</option>
+                <option value="Hotel">Hotel</option>
+                <option value="Caterer">Caterer</option>
+            </select>
+
+            <button id="sendWhatsApp" class="btn btn-green btn-full">
+                Send Enquiry on WhatsApp
+            </button>
+
+            <p class="form-note">
+                This is an enquiry. Product availability and prices will be confirmed by our team.
+            </p>
+
+        </div>
+
+    </aside>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

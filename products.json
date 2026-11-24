@@ -1,0 +1,243 @@
+
+[
+  {
+    "name": "Sona Masoori Rice",
+    "brand": "SAMPLE",
+    "category": "Rice and Flour",
+    "packSize": "25",
+    "unit": "kg",
+    "price": ""
+  },
+  {
+    "name": "Basmati Rice",
+    "brand": "SAMPLE",
+    "category": "Rice and Flour",
+    "packSize": "5",
+    "unit": "kg",
+    "price": ""
+  },
+  {
+    "name": "Broken Rice",
+    "brand": "SAMPLE",
+    "category": "Rice and Flour",
+    "packSize": "25",
+    "unit": "kg",
+    "price": ""
+  },
+  {
+    "name": "Wheat Flour",
+    "brand": "SAMPLE",
+    "category": "Rice and Flour",
+    "packSize": "5",
+    "unit": "kg",
+    "price": ""
+  },
+  {
+    "name": "Toor Dal",
+    "brand": "SAMPLE",
+    "category": "Dals and Pulses",
+    "packSize": "1",
+    "unit": "kg",
+    "price": ""
+  },
+  {
+    "name": "Moong Dal",
+    "brand": "SAMPLE",
+    "category": "Dals and Pulses",
+    "packSize": "1",
+    "unit": "kg",
+    "price": ""
+  },
+  {
+    "name": "Chana Dal",
+    "brand": "SAMPLE",
+    "category": "Dals and Pulses",
+    "packSize": "1",
+    "unit": "kg",
+    "price": ""
+  },
+  {
+    "name": "Urad Dal",
+    "brand": "SAMPLE",
+    "category": "Dals and Pulses",
+    "packSize": "1",
+    "unit": "kg",
+    "price": ""
+  },
+  {
+    "name": "Refined Sunflower Oil",
+    "brand": "SAMPLE",
+    "category": "Oils",
+    "packSize": "1",
+    "unit": "L",
+    "price": ""
+  },
+  {
+    "name": "Groundnut Oil",
+    "brand": "SAMPLE",
+    "category": "Oils",
+    "packSize": "1",
+    "unit": "L",
+    "price": ""
+  },
+  {
+    "name": "Mustard Oil",
+    "brand": "SAMPLE",
+    "category": "Oils",
+    "packSize": "1",
+    "unit": "L",
+    "price": ""
+  },
+  {
+    "name": "Red Chilli Powder",
+    "brand": "SAMPLE",
+    "category": "Spices",
+    "packSize": "500",
+    "unit": "g",
+    "price": ""
+  },
+  {
+    "name": "Turmeric Powder",
+    "brand": "SAMPLE",
+    "category": "Spices",
+    "packSize": "500",
+    "unit": "g",
+    "price": ""
+  },
+  {
+    "name": "Coriander Powder",
+    "brand": "SAMPLE",
+    "category": "Spices",
+    "packSize": "500",
+    "unit": "g",
+    "price": ""
+  },
+  {
+    "name": "Garam Masala",
+    "brand": "SAMPLE",
+    "category": "Spices",
+    "packSize": "100",
+    "unit": "g",
+    "price": ""
+  },
+  {
+    "name": "White Sugar",
+    "brand": "SAMPLE",
+    "category": "Sugar and Salt",
+    "packSize": "1",
+    "unit": "kg",
+    "price": ""
+  },
+  {
+    "name": "Iodized Salt",
+    "brand": "SAMPLE",
+    "category": "Sugar and Salt",
+    "packSize": "1",
+    "unit": "kg",
+    "price": ""
+  },
+  {
+    "name": "Digestive Biscuits",
+    "brand": "SAMPLE",
+    "category": "Snacks and Biscuits",
+    "packSize": "200",
+    "unit": "g",
+    "price": ""
+  },
+  {
+    "name": "Cream Biscuits",
+    "brand": "SAMPLE",
+    "category": "Snacks and Biscuits",
+    "packSize": "100",
+    "unit": "g",
+    "price": ""
+  },
+  {
+    "name": "Potato Chips",
+    "brand": "SAMPLE",
+    "category": "Snacks and Biscuits",
+    "packSize": "50",
+    "unit": "g",
+    "price": ""
+  },
+  {
+    "name": "Tea Powder",
+    "brand": "SAMPLE",
+    "category": "Beverages",
+    "packSize": "250",
+    "unit": "g",
+    "price": ""
+  },
+  {
+    "name": "Coffee Powder",
+    "brand": "SAMPLE",
+    "category": "Beverages",
+    "packSize": "200",
+    "unit": "g",
+    "price": ""
+  },
+  {
+    "name": "Fruit Drink",
+    "brand": "SAMPLE",
+    "category": "Beverages",
+    "packSize": "1",
+    "unit": "L",
+    "price": ""
+  },
+  {
+    "name": "Dishwash Liquid",
+    "brand": "SAMPLE",
+    "category": "Household and Cleaning",
+    "packSize": "500",
+    "unit": "ml",
+    "price": ""
+  },
+  {
+    "name": "Laundry Detergent",
+    "brand": "SAMPLE",
+    "category": "Household and Cleaning",
+    "packSize": "1",
+    "unit": "kg",
+    "price": ""
+  },
+  {
+    "name": "Floor Cleaner",
+    "brand": "SAMPLE",
+    "category": "Household and Cleaning",
+    "packSize": "1",
+    "unit": "L",
+    "price": ""
+  },
+  {
+    "name": "Bathing Soap",
+    "brand": "SAMPLE",
+    "category": "Personal Care",
+    "packSize": "100",
+    "unit": "g",
+    "price": ""
+  },
+  {
+    "name": "Shampoo",
+    "brand": "SAMPLE",
+    "category": "Personal Care",
+    "packSize": "180",
+    "unit": "ml",
+    "price": ""
+  },
+  {
+    "name": "Toothpaste",
+    "brand": "SAMPLE",
+    "category": "Personal Care",
+    "packSize": "150",
+    "unit": "g",
+    "price": ""
+  },
+  {
+    "name": "Hand Wash",
+    "brand": "SAMPLE",
+    "category": "Personal Care",
+    "packSize": "250",
+    "unit": "ml",
+    "price": ""
+  }
+]
